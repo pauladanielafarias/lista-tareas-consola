@@ -56,17 +56,24 @@ const main = async()=>{
             break;
             case 5:
                 //Completar tarea(s)
-                const {ids} = await mostrarListadoChecklist(tareas.listadoArr);
-                tareas.toggleCompletadas(ids);
-
-                if(ids[0] == undefined){
-                    console.log('')
-                    console.log(colors.red('No seleccionaste tareas completadas.'))
+                if(tareas.listadoArr[0] == undefined){
+                    console.log(''); //deja un salto de linea
+                    console.log('No hay tareas.')
+                    await pausa();
+                    
                 }else{
-                    console.log('')
-                    console.log(colors.green('Completaste tareas.'))
+                    const {ids} = await mostrarListadoChecklist(tareas.listadoArr);
+                    tareas.toggleCompletadas(ids);
+
+                    if(ids[0] == undefined){
+                        console.log('')
+                        console.log(colors.red('No seleccionaste tareas completadas.'))
+                    }else{
+                        console.log('')
+                        console.log(colors.green('Completaste tareas.'))
+                    }
+                    await pausa();
                 }
-                await pausa();
 
             break;
             case 6:
