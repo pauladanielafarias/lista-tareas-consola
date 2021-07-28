@@ -18,11 +18,11 @@ const guardarDB = (data)=>{
 }
 
 const leerDB = ()=>{
-    const info = fs.readFileSync(archivo, {encoding:'utf-8'})
-
+    
     if (!fs.existsSync(archivo) || isEmptyObject(info)){
         return null;
     }else{
+        const info = fs.readFileSync(archivo, {encoding:'utf-8'})
         const data = JSON.parse(info);
         return data;
     }
