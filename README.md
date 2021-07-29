@@ -20,7 +20,7 @@ A ```data.json``` file is generated in the db folder that will contain the tasks
 
 The app is in Spanish. / La app está en español.
 
-### :computer: Technologies / Tecnologías utilizadas: <img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/lista-tareas-consola/master?&logo=codefactor&logoColor=green"> <img align="center" alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/lista-tareas-consola">  <img alt="GitHub top language" align="center" src="https://img.shields.io/github/languages/top/pauladanielafarias/lista-tareas-consola">
+### :computer: Technologies / Tecnologías utilizadas: <a href='https://www.codefactor.io/'><img align="center" alt="CodeFactor Grade" src="https://img.shields.io/codefactor/grade/github/pauladanielafarias/lista-tareas-consola/master?&logo=codefactor&logoColor=green"><a> <img align="center" alt="GitHub language count" src="https://img.shields.io/github/languages/count/pauladanielafarias/lista-tareas-consola">  <img alt="GitHub top language" align="center" src="https://img.shields.io/github/languages/top/pauladanielafarias/lista-tareas-consola">
 
 - <img width="2%" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"> Node.js
 - <img width="2%" src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg"> JavaScript
